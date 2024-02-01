@@ -1,0 +1,17 @@
+---
+documentclass: scrartcl
+classoption:
+  - landscape
+papersize: letter
+fontsize: 18pt
+mainfont: DejaVu Sans Mono
+subtitle: Repaso de programación
+author: Miguel Robles
+#date: Enero 22, 2024
+geometry: "left=2.5cm,right=2.5cm,top=2cm,bottom=2cm,includehead"
+header-includes: |
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhead[CO,CE] {\small{ ENCiT  2024-2}}
+  \fancyhead[RO,RE] {\small{ Instrumentación Básica y Robótica}}
+---
