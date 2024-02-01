@@ -1,8 +1,10 @@
 # Algoritmo
 
-## Es una serie de pasos o instrucciones organizados que permiten alcanzar un fin.
+## Definición
+Es una serie de pasos o instrucciones organizados que permiten alcanzar un fin.
 
-- Se deriva del nombre del Matem ́atico Arabe Abu Abdallah Muhammad ibn Musa al-Jwarizmi (Al Juarismi)
+##
+- Se deriva del nombre del Matemático Arabe Abu Abdallah Muhammad ibn Musa al-Jwarizmi (Al Juarismi)
 - ”First, solve the problem. Then, write the code” –John Johnson
 - ”Divide et impera” – Julio César –
 - Es importante realizar un algoritmo como base para un programa:
@@ -12,7 +14,9 @@
 
 \pagebreak
 
-# Generación de un algoritmo
+# Consideraciones en la generación de un algoritmo
+
+###
 - Puede ser complicado, por lo que requiere cierta práctica.
 - En general, hay más de una manera de resolver cualquier problema, la adecuada dependerá de las necesidades particulares.
 - Si el problema es muy grande se debe dividir en tareas menos complejas, que después trabajarán en conjunto.
