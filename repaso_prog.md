@@ -63,17 +63,15 @@ Son más parecidos al lenguaje humano.
 Es una representación gráfica de un algoritmo.
 
 ## Figuras básicas:
-
-![df-figuras](assets/img/dflujo_basicas.png)
-\pagebreak
+\centering
+\includegraphics[height=5cm]{assets/img/dflujo_basicas.png}
 
 # Diagrama de flujo
 
-Ejemplo:
+## Ejemplo:
 
-![df-ejemplo](assets/img/dflujo_ejemplo.png)
-
-\pagebreak
+\centering
+\includegraphics[height=6.5cm]{assets/img/dflujo_ejemplo.png}
 
 # Pseudocódigo
 Es una mezcla de lenguaje natural con las convenciones sintácticas de los lenguajes de programación
@@ -93,10 +91,9 @@ Es una mezcla de lenguaje natural con las convenciones sintácticas de los lengu
 # Sentencias imperativas
 
 ##
-
 - operaciones: matemáticas, lógicas, de comparación, de bits
-- salida de datos: print
-- entrada de datos: input
+- salida de datos: print "mensaje"
+- entrada de datos: input \< variables \>
 
 ## Ejemplo: 
 
@@ -204,8 +201,10 @@ Cantidad que puede cambiar o que puede tomar uno de diferentes valores
 
 # Ejercicio
 
-Realizar el pseudocódigo para las siguientes condiciones:
+Realizar el pseudocódigo y diagrama de flujo para el siguiente problema a resolver:
 
 Se cuenta con las variables A y B, se requiere intercambiar sus valores. 
+
 a) Utilizando otra variable,
+
 b) Sin usar otra variable
