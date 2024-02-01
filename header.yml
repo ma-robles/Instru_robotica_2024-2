@@ -1,17 +1,21 @@
 ---
-documentclass: scrartcl
-classoption:
-  - landscape
-papersize: letter
-fontsize: 18pt
-mainfont: DejaVu Sans Mono
-subtitle: Repaso de programación
-author: Miguel Robles
+documentclass: beamer
+aspectratio: 169
+title: Repaso de programación
+subtitle: Instrumentación básica y robótica [2024-2]
+shorttitle: progra
+author: Miguel Angel Robles R.
+institute: "ENCiT"
+#topic: "Repaso de programación"
+date: Instrumentación básica y robótica
 #date: Enero 22, 2024
-geometry: "left=2.5cm,right=2.5cm,top=2cm,bottom=2cm,includehead"
-header-includes: |
-  \usepackage{fancyhdr}
-  \pagestyle{fancy}
-  \fancyhead[CO,CE] {\small{ ENCiT  2024-2}}
-  \fancyhead[RO,RE] {\small{ Instrumentación Básica y Robótica}}
+#theme: "CambridgeUS"
+theme: "Boadilla"
+colortheme: "beaver"
+fontfamily: "sourcesanspro"
+fontfamilyoptions: default
+  #fontfamilyoptions: sfdefault
+fonttheme: "serif"
+  #fonttheme: "professionalfonts"
+  #mainfont: "Liberation Sans"
 ---
