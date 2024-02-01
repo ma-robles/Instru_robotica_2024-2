@@ -14,8 +14,6 @@ Es una serie de pasos o instrucciones organizados que permiten alcanzar un fin.
 
 \pagebreak
 
-# Generación de un algoritmo
-
 # Consideraciones en la generación de un algoritmo
 
 ###
@@ -30,11 +28,11 @@ Es una serie de pasos o instrucciones organizados que permiten alcanzar un fin.
 # Ejercicio
 ## Realizar un algoritmo para doblar una playera/camisa
 
-1. Realizar el algoritmo
+1. Realizar el algoritmo en una hoja.
 2. Intercambiar el algoritmo realizado con un compañero
-3. Seguir el algoritmo del compañero para doblar su playera
+3. Seguir el algoritmo del compañero para doblar la playera
 4. Recibir/dar retroalimentación del algoritmo realizado/hecho
-5. Intercambiar algoritmos nuevamente
+5. Corregir e intercambiar algoritmos nuevamente
 
 \pagebreak
 
@@ -60,16 +58,23 @@ Son más parecidos al lenguaje humano.
 \pagebreak
 
 # Diagrama de Flujo
+
+##
 Es una representación gráfica de un algoritmo.
-Figuras básicas:
+
+## Figuras básicas:
 
 ![df-figuras](assets/img/dflujo_basicas.png)
+\pagebreak
+
+# Diagrama de flujo
 
 Ejemplo:
 
 ![df-ejemplo](assets/img/dflujo_ejemplo.png)
 
 \pagebreak
+
 # Pseudocódigo
 Es una mezcla de lenguaje natural con las convenciones sintácticas de los lenguajes de programación
 
@@ -77,7 +82,7 @@ Es una mezcla de lenguaje natural con las convenciones sintácticas de los lengu
 - operaciones: matemáticas, lógicas, de comparación, de bits
 - instrucciones de entrada/salida de datos
 
-## Sentencias de selección
+## Sentencias de condición
 - if ... then... else ...
 
 ## Sentencias de iteración
@@ -86,11 +91,14 @@ Es una mezcla de lenguaje natural con las convenciones sintácticas de los lengu
 \pagebreak
 
 # Sentencias imperativas
+
+##
+
 - operaciones: matemáticas, lógicas, de comparación, de bits
 - salida de datos: print
 - entrada de datos: input
 
-Ejemplo: 
+## Ejemplo: 
 
     print "bienvenido"
     print "ingresa tu nombre"
@@ -99,15 +107,24 @@ Ejemplo:
 
 \pagebreak
 
-# Sentencias de selección
+# Sentencias de condición
+
 Selecciona entre dos o más opciones.
+
+:::{.columns}
+:::{.column width="40%"}
+
+## Sintaxis
 
     if <condición> then
         sentencias imperativas
     else
         sentencias imperativas
 
-Ejemplo:
+:::
+:::{.column width="40%"}
+
+## Ejemplo:
 
     input calificación
     if calificación < 6 then
@@ -115,8 +132,16 @@ Ejemplo:
     else
        print "aprueba"
 
+:::
+:::
+
 \pagebreak
-# sentencias de selección reload
+# sentencias de selección extended
+
+:::{.columns}
+:::{.column width="40%"}
+
+## Sintaxis
 
     if <condición> then
         sentencias imperativas
@@ -125,7 +150,10 @@ Ejemplo:
     else
         sentencias imperativas
 
-Ejemplo:
+:::
+:::{.column width="40%"}
+
+## Ejemplo:
 
     input calificación
     if calificación < 6 then
@@ -134,27 +162,40 @@ Ejemplo:
         print "pierde la beca"
     else
         print "Estudiante feliz"
+:::
+:::
 
 \pagebreak
+
 # Sentencias de Repetición
+
+:::{.columns}
+:::{.column width="40%"}
+
+## Sintaxis
 
     while <Condición>
         sentencias imperativas
+:::
+:::{.column width="40%"}
 
-Ejemplo:
+## Ejemplo:
 
     contador = 365
     while contador > 0
         print contador
         espera 1 día
-        disminuye contador en 1 (contador-=1)
+        disminuye contador en 1 
+        #(contador-=1)
+:::
+:::
 
 \pagebreak
 
 # Variables
 Cantidad que puede cambiar o que puede tomar uno de diferentes valores
 
-Ejemplos:
+## Ejemplos:
 
 - calificación
 - edad
@@ -162,6 +203,7 @@ Ejemplos:
 - nombre de archivo
 
 # Ejercicio
+
 Realizar el pseudocódigo para las siguientes condiciones:
 
 Se cuenta con las variables A y B, se requiere intercambiar sus valores. 
