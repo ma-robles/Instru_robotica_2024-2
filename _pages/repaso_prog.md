@@ -1,3 +1,7 @@
+---
+title: Repaso
+layout: post
+---
 # Algoritmo
 
 ## Definición
