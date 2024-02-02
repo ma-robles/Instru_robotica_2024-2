@@ -63,8 +63,10 @@ Son más parecidos al lenguaje humano.
 Es una representación gráfica de un algoritmo.
 
 ## Figuras básicas:
+
 \centering
 \includegraphics[height=5cm]{assets/img/dflujo_basicas.png}
+    <img src="assets/img/dflujo_basicas.png" />
 
 # Diagrama de flujo
 
@@ -72,6 +74,7 @@ Es una representación gráfica de un algoritmo.
 
 \centering
 \includegraphics[height=6.5cm]{assets/img/dflujo_ejemplo.png}
+    <img src="assets/img/dflujo_ejemplo.png" />
 
 # Pseudocódigo
 Es una mezcla de lenguaje natural con las convenciones sintácticas de los lenguajes de programación

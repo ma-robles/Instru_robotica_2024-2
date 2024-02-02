@@ -1,7 +1,7 @@
 ---
-documentclass: beamer
+#documentclass: beamer
 aspectratio: 169
-title: Repaso de programación
+title: "Repaso de programación"
 subtitle: Instrumentación básica y robótica [2024-2]
 shorttitle: progra
 author: Miguel Angel Robles R.
