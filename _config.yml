@@ -1,3 +1,5 @@
 ---
+url: 'https://ma-robles.github.io/'
+baseurl: '/Instru_robotica_2024-2'
 remote_theme: sighingnow/jekyll-gitbook
 ---
