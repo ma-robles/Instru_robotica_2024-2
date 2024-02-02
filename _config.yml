@@ -3,6 +3,11 @@ url: 'https://ma-robles.github.io/'
 baseurl: '/Instru_robotica_2024-2'
 remote_theme: sighingnow/jekyll-gitbook
 
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
 collections:
   pages:
     output: true
