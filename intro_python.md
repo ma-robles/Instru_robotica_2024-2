@@ -352,3 +352,118 @@ Repite un bloque de instrucciones mientras se cumpla la *condición*
 - Los límites de la sentencia (bloque de instrucciones) se indican con el sangrado
 - Se recomienda sangrado de 4 espacios
 
+# Cadenas
+
+- Son una forma de representar texto 
+- Podemos verlas como una lista de caracteres
+- Se puede representar caracteres especiales con la secuencia correspondiente:
+
+|Secuencia | Caracter |
+|----|----|
+| \\\\ | \\ |
+| \\' | ' |
+| \\" | " |
+| \\r | retorno de carro |
+| \\n | nueva línea |
+| \\t | tabulador |
+
+
+# Cadenas (métodos)
+Algunos métodos útiles son los siguientes
+
+| Método | Resultado |
+|----|-----|
+| x in s | True si x está en s|
+| s*n | realiza n copias de s y las concatena|
+| len(s) | Longitud de la cadena s|
+| s.count(x) | Incidencias de x en s |
+| s.find(x) | El índice de la primer ocurrencia de x en s |
+| s.split(sep=None) | Una lista con las palabras divididas por sep |
+| s.strip([chars]) | elimina los caracteres indicados en chars |
+| s.format() | Realiza una operación de formateo|
+
+
+# for
+
+Permite recorre un elemento iterable
+
+## Sintaxis
+    for <elemento> in <iterable:
+        <bloque de código>
+
+## Ejemplo
+    lista = ['elemento', 10.5, 3 ]
+    for item in lista:
+        print(item)
+
+    elemento
+    10.5
+    3
+
+# Archivos
+
+## Definición
+Archivo es una sucesión de bytes en un dispositivo de almacenamiento (disco duro, CD, DVD, etc).
+
+## Tipos
+* Binarios: Archivos cuya representación se encuentra en código binario
+* Texto: Archivos cuya representación corresponde a una codificación de texto (por ejemplo utf-8)
+
+# Archivos (abrir y cerrar)
+
+##    file = open(filename, mode)
+Crea un objeto de tipo archivo y lo abre en el modo especificado
+
+- file: Objeto de tipo archivo
+- filename: Nombre de archivo
+- mode: Modo, por defecto es es ’r’
+    * ’r’ modo de lectura
+    * ’w’ modo de escritura, si el archivo existe lo sobreescribe
+    * ’a’ modo de concatenación
+
+##    file.close()
+Cierra el objeto de tipo archivo
+
+- file: objeto de tipo archivo
+
+# Leyendo el contenido de un archivo
+
+## data = file.read(n)
+Lee n datos de un objeto tipo archivo
+
+    file: objeto tipo archivo
+    data: cadena correspondiente al archivo
+
+## ejemplo
+
+    archivo=open(’datos/testfile.cca’)
+    datos=archivo.read()
+    archivo.close()
+    print(datos)
+
+## data = file.readline()
+Lee una línea del archivo
+
+# Leyendo el contenido de un archivo (II)
+
+## Archivo a una lista
+
+    data = file.readlines()
+    data = list(file)
+
+## Más eficientemente
+
+    for line in file:
+    print(line)
+
+## file.write(string)
+Escribe una cadena en el archivo en el archivo
+
+    file Objeto de tipo archivo
+    string Cadena de texto
+
+# Ejercicio
+
+Leer un archivo de datos y extraerlos
+
+
