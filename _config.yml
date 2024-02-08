@@ -1,7 +1,7 @@
 ---
 url: 'https://ma-robles.github.io/'
 baseurl: '/Instru_robotica_2024-2'
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: "jeffreytse/jekyll-theme-yat"
 
 toc:
   enabled: true
