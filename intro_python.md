@@ -212,7 +212,7 @@ Podemos acceder o re-asignar una parte de la lista indicando el intervalo desead
 | Operación | Descripción |
 |------|------------|
 | s[i]=x | Elemento *i* es reemplazado con *x* |
-| s[i:j]=t | Parte de *i* a *j* es reemplazado con lista *t* |
+| s[i:j]=[t] | Parte de *i* a *j* es reemplazado con lista *t* |
 | del s[i:j] | Elimina los elementos de *i* a *j* |
 |    s.append(x) | agrega *x* al final de *s* |
 |    s.extend(t) | extiende *s* con los elementos de *t* |
@@ -454,7 +454,7 @@ Lee una línea del archivo
 ## Más eficientemente
 
     for line in file:
-    print(line)
+        print(line)
 
 ## file.write(string)
 Escribe una cadena en el archivo en el archivo
